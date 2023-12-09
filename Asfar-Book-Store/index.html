@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- sticky buttons -->
+    <button id = "whatsappaButton" class = "sticky"></button>
+    <button id = "basketBautton" class = "sticky"></button>
+
+<!-- navigtion bar -->
+    <nav>
+        <span class = "navSpans" id = "searchBox">
+            <button id = "searchButton"><img id ="searchImg"src="../resorces/magnifying-glass.png" alt="">  ابحث عن كتاب</button>
+        </span>
+        <span class = "navSpans" id = "logo">
+            <img id = "logoImage" src="../resorces/asfar-logo.png" alt="">
+        </span>
+        <span class = "navSpans" id = "menu">
+            <img id = "menuIcon" src="../resorces/menu.png" alt="">
+        </span>
+    </nav>
+
+<!-- hrader -->
+    <div id = "header">
+        <span class="headerSpans" id = "header-rigth">
+            <img src="../resorces/3255472.png" alt="">
+        </span>
+        <span class="headerSpans" id = "header-left">
+            <p>جديد أسفار</p>
+            <h1>قسم الكتب النادرة والقديمة</h1>
+            <p>نتجول في أسواق الكتب ونجمع نوادرها وقديمها في مختلف المجالات والاهتمامات. يجري تحديث القسم يوميًا</p>
+            <button id = "headerButton">
+                <img class = "buttonIcon" src="../resorces/arrow (1).png" alt="">
+                <span>تصفح القسم</span>
+            </button>
+        </span>
+
+    </div>
+
+<!-- Helping tools -->
+    <div>
+        <h1 class ="titles">أدوات مساعدة</h1>
+
+        <div id = "tools">
+            <span class = "toolsSpans">
+                <img class = "toolsIcons" src="../resorces/magnifying-glass (2).png" alt="">
+                <p class = "toolsTitles">ابحث عن كتاب</p>
+            </span>
+        
+                <span  class = "toolsSpans">
+                    <img class = "toolsIcons" src="../resorces/icons8-in-transit-100.png" alt="">
+                    <p class = "toolsTitles">تتبع طلباتك</p> 
+                </span>
+        
+                <span class = "toolsSpans">
+                    <img class = "toolsIcons" src="../resorces/book.png" alt="">
+                    <p class = "toolsTitles">وزع اصداراتك</p>
+                </span>
+        
+                <span class = "toolsSpans">
+                    <img class = "toolsIcons" src="../resorces/global (1).png" alt="">
+                    <p class = "toolsTitles">طور موقعك</p>
+                </span>
+    </div>
+
+<!-- about Publishers -->
+    <div class = "section">
+            <h1 class ="titles">شركاؤنا الناشرون</h1>
+            <div id ="Publishers" >
+                <button id = "publishersbutton">
+                    <img class = "buttonIcon" src="../resorces/previous (1).png" alt="">
+
+                    دخول لصفحة الناشرين
+                </button>
+    
+                <span class = "PublishersSpans">
+                    <h1 class = "numbers">+100,000 </h1>
+                    <p class = "PublishersTitles">كتاب ومجلة</p>
+                </span>
+            
+                <span  class = "PublishersSpans">
+                    <h1 class = "numbers">+1,500</h1>
+                    <p class = "PublishersTitles">دار نشر عربية وأجنبية</p> 
+                </span>
+            
+            </div>
+    </div>
+
+<!-- best seller -->
+    <div>
+        <h1 class ="titles">الأكثر مبيعا</h1>
+
+        <div id = booksContainer>
+            <span class ="book">
+                <img class = "bookImage" src="../resorces/book4.jpg" alt="">
+                <p class = "bookName">العادات الذرية - منهج سهل لبناء عادات جيدةوالتخلص من العادات السيئة </p>
+                <p class="price">430.00 EGP</p>
+                <a class = "publishingHouseLink" href="">نور العلم</a>
+                <p class = "publishingHouse">: تم النشر بواسطة </p>
+                <button class = "basketButton">إضافة إلي السلة</button>
+            </span>
+            <span class ="book">
+                <img class = "bookImage" src="../resorces/book3.jpg" alt=".">
+                <p class = "bookName">البداية والنهاية (21 مجلد)</p>
+                <br>
+                <p class="price">13,297.00 EGP</p>
+                <a class = "publishingHouseLink" href="">دار السلام</a>
+                <p class = "publishingHouse">: تم النشر بواسطة </p>
+                <button class = "basketButton">إضافة إلي السلة</button>
+
+            </span>
+            <span class ="book">
+                <img class = "bookImage" src="../resorces/book2.jpg" alt="">
+                <p class = "bookName">مع المصطفي في 360 يوما - السيرة النبوية للأطفال (12 جزء)</p>
+                <p class="price">2,065.00 EGP</p>
+                <a class = "publishingHouseLink" href="">مركز إبصار</a>
+                <p class = "publishingHouse">: تم النشر بواسطة</p>
+                <button class = "basketButton">إضافة إلي السلة</button>
+
+            </span>
+            <span class ="book">
+                <img class = "bookImage" src="../resorces/book1.jpg" alt="">
+                <p class = "bookName">سلسلة ما وراء الطبيعة كاملة (81 عددا)</p>
+                <br>
+                <p class="price">1,700.00 EGP</p>
+                <a class = "publishingHouseLink" href="">المؤسسة العربية الحديثة</a>
+                <p class = "publishingHouse">: تم النشر بواسطة </p>
+                <button class = "basketButton">إضافة إلي السلة</button>
+
+            </span>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+</body>
+
+
+</html>
